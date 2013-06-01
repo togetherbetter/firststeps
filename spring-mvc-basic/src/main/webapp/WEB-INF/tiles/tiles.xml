@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/views/fontend/layout/layout.jsp">
+		<put-attribute name="title" value="Template"></put-attribute>
+		<put-attribute name="head" value="/WEB-INF/views/fontend/layout/head.jsp"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/fontend/layout/header.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/fontend/layout/menu.jsp"></put-attribute>
+		<put-attribute name="advertising" value="/WEB-INF/views/fontend/layout/advertising.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/fontend/layout/body.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/views/fontend/layout/footer.jsp"></put-attribute>
+	</definition>
+	<definition name="fontend/home" extends="baseLayout">
+		<put-attribute name="title" value="Home"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/fontend/home.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

@@ -2,8 +2,6 @@
 <%@page pageEncoding="UTF-8"%>
 <%@ page session="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Place your description here" />
 <meta name="keywords" content="put, your, keyword, here" />
 <meta name="author" content="Templates.com - website templates provider" />
@@ -13,4 +11,3 @@
 <script src="<c:url value = "/resources/fontend/js/cufon-replace.js"/>" type="text/javascript"></script>
 <script src="<c:url value = "/resources/fontend/js/Gill_Sans_400.font.js"/>" type="text/javascript"></script>
 <script src="<c:url value = "/resources/fontend/js/script.js"/>" type="text/javascript"></script>
-</head>
